@@ -27,8 +27,8 @@ public class MasterController : MonoBehaviour
     public XRRayInteractor RightTeleportInteractor;
     public XRRayInteractor LeftTeleportInteractor;
 
-    public XRDirectInteractor RightDirectInteractor;
-    public XRDirectInteractor LeftDirectInteractor;
+    //public XRDirectInteractor RightDirectInteractor;
+    //public XRDirectInteractor LeftDirectInteractor;
 
     public MagicTractorBeam RightTractorBeam;
     public MagicTractorBeam LeftTractorBeam;
@@ -175,7 +175,7 @@ public class MasterController : MonoBehaviour
         //of the model by the Interaction Toolkit is done on the first update.
         if (m_RightHandPrefab == null)
         {
-            m_RightHandPrefab = RightDirectInteractor.GetComponentInChildren<HandPrefab>();
+           // m_RightHandPrefab = RightDirectInteractor.GetComponentInChildren<HandPrefab>();
         }
 
         m_PreviousRightClicked = axisInput.y > 0.5f;
@@ -216,7 +216,7 @@ public class MasterController : MonoBehaviour
         //of the model by the Interaction Toolkit is done on the first update.
         if (m_LeftHandPrefab == null)
         {
-            m_LeftHandPrefab = LeftDirectInteractor.GetComponentInChildren<HandPrefab>();
+            //m_LeftHandPrefab = LeftDirectInteractor.GetComponentInChildren<HandPrefab>();
         }
 
         m_PreviousLeftClicked = axisInput.y > 0.5f;
