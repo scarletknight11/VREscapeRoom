@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Serialization;
 
-public class SelectionOutline : MonoBehaviour
-{
+public class SelectionOutline : MonoBehaviour {
+
     [FormerlySerializedAs("renderer")]
     public Renderer Renderer;
     

@@ -11,9 +11,12 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/VR Beginner/Scenes/Final/PrototypeScene.unity
     guid: 5ff136f1bfd1b4f439ebe94b8ca30146
-  - enabled: 1
-    path: Assets/MyScenes/MyEscapeRoomScene.unity
+  - enabled: 0
+    path: Assets/Scenes/MyEscapeRoomScene.unity
     guid: a571e45119ae6a24aa2acb3d45576ed5
+  - enabled: 1
+    path: Assets/Scenes/SampleScene.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 398d945149746a94899cafbfeddf8c9f,
       type: 2}
